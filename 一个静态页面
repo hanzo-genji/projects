@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>一个静态页面</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding:0;
+		text-align: center;
+	}
+	ul{
+		list-style: none;
+	}
+	
+	a{
+		text-decoration: none;
+	}
+
+	body{
+		background: #fff2e3;
+		font:14px/1.4 Arial;
+	}
+	.title{
+		margin-top: 30px;
+		color: #87968e;
+	}
+	
+	.jieshao{
+		color: #87968e;
+		margin-top: 20px;
+	}
+	.btn{
+		display: inline-block;
+		padding: 6px 4px;
+		color:#fff;
+		background-color: #72b890;
+		border-radius: 3px;
+	}
+	.btn:hover{
+		opacity: 0.7;
+	}
+	.btn:active{
+		opacity: 1;
+	}
+	.hengpai{
+		margin-top: 20px;
+	}
+	.hengpai>li{
+		display: inline-block;
+		margin: 0 4px;
+	}
+	.pic{
+		margin-top: 30px;
+	}
+	.ct>li{
+		display: inline-block;
+		margin: 0 4px;
+	}
+	.ct{
+		margin-top: 30px;
+	}
+	.footer {
+		margin: 30px;
+		color: #beb4a2;
+	}
+	.footer a{
+		color:#72b890;
+	}
+</style>
+
+
+	<h1 class="title">我的项目</h1>
+	<p class="jieshao">一句话项目介绍</p>
+
+</head>
+	<body>
+	<ul class="hengpai">
+		<li><a class="btn" href="#">项目1</a></li>
+		<li><a class="btn" href="#">项目2</a></li>
+		<li><a class="btn" href="#">项目3</a></li>
+		<li><a class="btn" href="#">项目4</a></li>
+		<li><a class="btn" href="#">项目5</a></li>
+	</ul>
+<img class="pic" src="http://cdn.jscode.me/65d4aba2-a097-4b24-aaa0-ebbaf7eedab2">
+	<ul class="ct">
+		<li><a class="btn" href="#">查看源码</a></li>
+		<li><a class="btn" href="#">使用说明</a></li>
+	</ul>
+</body>
+<footer>
+<div class="footer">
+作者：<a href="#">我</a>
+
+</div>
+</footer>
+</html>
