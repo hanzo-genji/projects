@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>一个好看的表格表单</title>
+	<style>
+		body{
+			font-family: arial;
+		}
+		.main{
+			width: 600px;
+			margin: 0 auto;
+		}
+		.main>table{
+			margin-top: 30px;
+		}
+		.buttom{
+			border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid #ccc;
+		}
+		.buttom tr{
+			border-bottom: 1px solid #ddd;
+            text-align: left;
+		}
+		.buttom tr:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+        .buttom th {
+            color: #fff;
+            background-color: #4CAF50;
+            padding: 8px 8px;
+            font-weight: bold;
+        }
+        .buttom td {
+            padding: 8px 8px;
+        }
+        
+        .buttom.v1 {
+            border: none;
+        }
+        
+        .buttom.v1 th {
+            background-color: #fff;
+            color: #000;
+        }
+
+
+
+		
+	</style>
+</head>
+<body>
+	<div class="main">
+			<table class="buttom">
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Points</th>
+				</tr>
+				<tr>
+					<td>Jill</td>
+	                <td>Smith</td>
+	                <td>50</td>
+				</tr>
+				 <tr>
+	                <td>Eve</td>
+	                <td>Jackson</td>
+	                <td>94</td>
+	            </tr>
+	            <tr>
+	                <td>Adam</td>
+	                <td>Johnson</td>
+	                <td>67</td>
+	            </tr>
+	            <tr>
+	                <td>Bo</td>
+	                <td>Nilsson</td>
+	                <td>50</td>
+	            </tr>
+	            <tr>
+	                <td>Mike</td>
+	                <td>Ross</td>
+	                <td>35</td>
+	        </table>
+
+	        <table class="buttom v1">
+		        	<tr>
+	                <th>First Name</th>
+	                <th>Last Name</th>
+	                <th>Points</th>
+	            </tr>
+	            <tr>
+	                <td>Jill</td>
+	                <td>Smith</td>
+	                <td>50</td>
+	            </tr>
+	            <tr>
+	                <td>Eve</td>
+	                <td>Jackson</td>
+	                <td>94</td>
+	            </tr>
+	            <tr>
+	                <td>Adam</td>
+	                <td>Johnson</td>
+	                <td>67</td>
+	            </tr>
+	            <tr>
+	                <td>Bo</td>
+	                <td>Nilsson</td>
+	                <td>50</td>
+	            </tr>
+	            <tr>
+	                <td>Mike</td>
+	                <td>Ross</td>
+	                <td>35</td>
+	            </tr>
+	        </table>
+	</div>
+</body>
+</html>
