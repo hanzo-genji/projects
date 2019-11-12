@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>导航栏测试</title>
+    <link rel="stylesheet" href="./test-style.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main id="g">
+
+    </main>
+    <footer>
+
+    </footer>
+    <script>
+        var keys = {
+            0:['q','w','e','r','t','y','u','i','o','p'],
+            1:['a','s','d','f','g','h','j','k','l'],
+            2:['z','x','c','v','b','n','m'],
+            length:3
+        }
+
+        hash = {
+            a:'alibaba.com',
+            b:'taobao.com',
+            z:'zhihu.com'
+        }
+
+        index=0
+        while(index<keys.length){
+            var div_input = document.createElement('div')
+            g.appendChild(div_input)
+            index1=0
+            row=keys[index]
+            console.log(row)
+            while(index1<row.length){
+                var kbd_input = document.createElement('kbd')
+                div_input.appendChild(kbd_input)
+                // row的index1在这里是什么，这里为什么要用row的index？
+                kbd_input.textContent=row[index1]
+                index1++
+            }
+            index++
+        }
+    </script>
+</body>
+</html>
